@@ -1,0 +1,9 @@
+.travel {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}

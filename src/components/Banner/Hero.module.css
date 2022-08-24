@@ -1,0 +1,25 @@
+.caption {
+  position: absolute;
+  right: 15%;
+  top: 40%;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.caption h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .caption h1 {
+    font-size: 30px;
+  }
+
+  .caption h4 {
+    font-size: 15px;
+  }
+}

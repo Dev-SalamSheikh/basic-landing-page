@@ -1,0 +1,30 @@
+.service {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.service img {
+  width: 50px;
+}
+
+.serviceHeading {
+  padding: 10px 0 0 0;
+}
+
+.service h1 {
+  font-size: 35px;
+}
+
+.service a {
+  transition: all 0.2s ease;
+}
+
+.service a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .serviceCard {
+    margin-bottom: 50px;
+  }
+}

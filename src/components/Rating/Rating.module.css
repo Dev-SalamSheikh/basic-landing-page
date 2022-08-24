@@ -1,0 +1,28 @@
+.rating {
+  margin-bottom: 100px;
+}
+
+.ratingContent {
+  padding: 0 50px;
+  margin-top: 30px;
+}
+
+.ratingContent i {
+  font-size: 12px;
+}
+
+.ratingContent span {
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.desc {
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .ratingContent {
+    padding: 0 15px;
+    text-align: center;
+  }
+}
